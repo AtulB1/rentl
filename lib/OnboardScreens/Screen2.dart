@@ -12,7 +12,7 @@ class Screen2 extends StatelessWidget {
         body: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(80.0),
+              padding: const EdgeInsets.all(80.00),
               child: Image.asset(
                 'assets/images/ListingDetail.png',
                 height: 264,
