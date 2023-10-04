@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:rentl/NewUserScreen/welcomeScreen.dart';
 
 class NewGoogleLogin extends StatelessWidget {
   const NewGoogleLogin({super.key});
@@ -33,7 +34,10 @@ class NewGoogleLogin extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              
+              Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const WelcomeScreen()));
             },
             child: Container(
               decoration: BoxDecoration(

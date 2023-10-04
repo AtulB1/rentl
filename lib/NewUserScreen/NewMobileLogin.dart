@@ -55,8 +55,8 @@ class _NewMobileLoginState extends State<NewMobileLogin> {
                   ],
                   border: Border.all(
                     color:
-                        const Color(0xFF000000), // Adjust the color as needed
-                    width: 0.1, // Adjust the width as needed
+                        const Color(0xFF000000), 
+                    width: 0.1, 
                   ),
                   borderRadius: BorderRadius.circular(21),
                   color: const Color(0xFFFFFFFF),
